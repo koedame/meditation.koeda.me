@@ -54,7 +54,36 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      name: '瞑想プレイヤー',
+      lang: 'ja',
+      icons: ['apple-icon-152x152.png', 'apple-icon-180x180.png'],
+    },
+
+    icon: {
+      iconFileName: 'icon.png',
+    },
+
+    meta: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      name: '瞑想プレイヤー',
+    },
+
+    // workbox options
+    // Doc: https://pwa.nuxtjs.org/modules/workbox.html#options
+    workbox: {
+      // 開発環境で挙動を確認したい場合は有効にする
+      // dev: (environment == 'development'),
+      // オフラインですべての機能が動くのでtrue
+      offline: true,
+      // なんとなくtrue
+      skipWaiting: true,
+      // なんとなくtrue
+      clientsClaim: true,
+      // 不要
+      // offlinePage: '/offline.html'
+      // オフラインで動くが、最新版が反映されやすくするためNetworkFirstを設定
+      offlineStrategy: 'NetworkFirst',
     },
   },
 
