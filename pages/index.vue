@@ -32,6 +32,7 @@
   .section
     .content
       h2 使用BGMについて
+      hr
       p BGMは著作権フリーの音源をランダムで選択しています。
 
       b 使用BGM一覧
