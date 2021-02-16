@@ -28,10 +28,18 @@
       div
         b-button(icon-left="stop", type="is-danger", @click="stop", v-if="isPlaying") 終了
         b-button(icon-left="play", type="is-success", outlined, @click="play", v-else) スタート
+
+    hr
+
+    b-button#form-button(type="is-warning", icon-left="triangle", @click="openContactFrom")
+      strong 要望・不具合報告はこちら
 </template>
 
 <script>
+import ContactForm from '~/components/ContactForm'
+
 export default {
+  components: { ContactForm },
   data() {
     return {
       isPlaying: false,
@@ -104,6 +112,13 @@ export default {
     setMinutes(minute) {
       this.minute = minute
       this.remainingTime = 60 * minute
+    },
+
+    openContactFrom() {
+      this.$buefy.modal.open({
+        parent: this,
+        component: ContactForm,
+      })
     },
   },
 }
