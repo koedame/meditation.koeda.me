@@ -40,9 +40,6 @@
           a(href="https://www.youtube.com/watch?v=ZW4hIav2-Zc", target="_blank", rel="noopener noreferrer") One Hour Meditation Music in 432Hz Tuning / Free Download - Free Music for Video
 
         li
-          a(href="https://www.youtube.com/watch?v=Dga1d8U-NoE", target="_blank", rel="noopener noreferrer") 3 Hours of Meditation Music (Royalty-Free Music) - Relaxing / Healing / Stress Relief / Sleep
-
-        li
           a(href="https://www.youtube.com/watch?v=X15LLGNkijI", target="_blank", rel="noopener noreferrer") No Copyright Meditation Music 2021 | Background Music Royalty Free
 
         li
@@ -74,7 +71,7 @@ export default {
         'https://static.koeda.me/meditation/audios/a.mp3',
         'https://static.koeda.me/meditation/audios/b.mp3',
         'https://static.koeda.me/meditation/audios/c.mp3',
-        'https://static.koeda.me/meditation/audios/d.mp3',
+        // 'https://static.koeda.me/meditation/audios/d.mp3',
         'https://static.koeda.me/meditation/audios/e.mp3',
       ],
     }
