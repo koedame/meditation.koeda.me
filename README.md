@@ -1,20 +1,6 @@
-# meditation.koeda.me
+# 瞑想BGMプレイヤー
 
-## Build Setup
+瞑想に最適なBGMを指定した時間だけ再生することができるプレイヤーです。
+リラックス効果があるので睡眠用BGMや作業用BGMに使うことも可能です。
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[https://meditation.koeda.me/](https://meditation.koeda.me/)

@@ -1,6 +1,6 @@
-# 瞑想プレイヤー
+# PAGES
 
-瞑想に最適なBGMを指定した時間だけ再生することができるプレイヤーです。
-リラックス効果があるので睡眠用BGMや作業用BGMに使うことも可能です。
+This directory contains your Application Views and Routes.
+The framework reads all the `*.vue` files inside this directory and creates the router of your application.
 
-[https://meditation.koeda.me/](https://meditation.koeda.me/)
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/routing).

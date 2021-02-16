@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '瞑想プレイヤー',
+    title: '瞑想BGM',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -54,7 +54,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: '瞑想プレイヤー',
+      name: '瞑想BGM',
       lang: 'ja',
       icons: ['apple-icon-152x152.png', 'apple-icon-180x180.png'],
     },
@@ -66,7 +66,7 @@ export default {
     meta: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      name: '瞑想プレイヤー',
+      name: '瞑想BGM',
     },
 
     // workbox options
