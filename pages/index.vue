@@ -29,6 +29,28 @@
         b-button(icon-left="stop", type="is-danger", @click="stop", v-if="isPlaying") 終了
         b-button(icon-left="play", type="is-success", outlined, @click="play", v-else) スタート
 
+    .content
+      h2 使用BGMについて
+      p BGMは著作権フリーの音源をランダムで選択しています。
+
+      b 使用BGM一覧
+
+      ol
+        li
+          a(href="https://www.youtube.com/watch?v=ZW4hIav2-Zc", target="_blank", rel="noopener noreferrer") One Hour Meditation Music in 432Hz Tuning / Free Download - Free Music for Video
+
+        li
+          a(href="https://www.youtube.com/watch?v=Dga1d8U-NoE", target="_blank", rel="noopener noreferrer") 3 Hours of Meditation Music (Royalty-Free Music) - Relaxing / Healing / Stress Relief / Sleep
+
+        li
+          a(href="https://www.youtube.com/watch?v=X15LLGNkijI", target="_blank", rel="noopener noreferrer") No Copyright Meditation Music 2021 | Background Music Royalty Free
+
+        li
+          a(href="https://www.youtube.com/watch?v=vTjb5BSt4S4", target="_blank", rel="noopener noreferrer") No Copyright Music, Morning Mist, 1 Hour Meditation Music | Copyright Free Music
+
+        li
+          a(href="https://www.youtube.com/watch?v=pzJzz3S2OiM", target="_blank", rel="noopener noreferrer") No Copyright Meditation Music | Music for Your Project - Copyright Free
+
     hr
 
     b-button#form-button(type="is-warning", icon-left="triangle", @click="openContactFrom")
