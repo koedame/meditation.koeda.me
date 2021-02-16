@@ -29,6 +29,7 @@
         b-button(icon-left="stop", type="is-danger", @click="stop", v-if="isPlaying") 終了
         b-button(icon-left="play", type="is-success", outlined, @click="play", v-else) スタート
 
+  .section
     .content
       h2 使用BGMについて
       p BGMは著作権フリーの音源をランダムで選択しています。
@@ -52,6 +53,25 @@
 
     b-button#form-button(type="is-warning", icon-left="triangle", @click="openContactFrom")
       strong 要望・不具合報告はこちら
+
+  .section
+    .content
+      h2 書籍情報
+      hr
+      article.media
+        figure.media-left
+          p.image.is-128x128
+            img(src='/images/book.jpg')
+        .media-content
+          .content
+            p
+              strong ~1日10分で自分を浄化する方法~マインドフルネス瞑想入門
+              | &nbsp;
+              small 吉田昌生（著）
+              br
+              |  マインドフルネス瞑想は、「脳と心をスッキリ片づける整理術」。世界中の成功者がやっている“気づき”のトレーニングで「動じない心」が身につく。ストレス、不安、迷いをなくし、「自分を変える」が実現できる本。
+            hr
+            b-button(type="is-warning", tag="a", href="https://www.amazon.co.jp/dp/4872907310/", icon-left="amazon", target="_blank" rel="noopener noreferrer") Amazon購入ページ
 </template>
 
 <script>
