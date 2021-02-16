@@ -3,7 +3,6 @@
   .section
     .content
       h1 瞑想BGM
-      p 瞑想に最適なBGMを指定した時間だけ再生することができます。リラックス効果があるので睡眠用や作業用に使うことも可能です。
 
     .box
       .buttons
@@ -146,7 +145,7 @@ export default {
         this.audio = null
       }
 
-      this.setMinutes(this.minute)
+      this.remainingTime = 60 * this.minute
     },
 
     setMinutes(minute) {
