@@ -11,7 +11,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '瞑想に最適なBGMを指定した時間だけ再生することができるプレイヤーです。リラックス効果があるので睡眠用BGMや作業用BGMに使うことも可能です。' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '瞑想に最適なBGMを指定した時間だけ再生することができるプレイヤーです。リラックス効果があるので睡眠用BGMや作業用BGMに使うことも可能です。',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
